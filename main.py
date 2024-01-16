@@ -166,6 +166,7 @@ async def exo(message: types.Message):
 @dp.callback_query_handler(state=UserData.text)
 async def translate(c: types.CallbackQuery, state: FSMContext):
     result = tr.translate(text, dest =c.data)
+    await c.message.delete()
     await c.message.answer(result.text)
     await state.finish()
     await state.reset_data()
