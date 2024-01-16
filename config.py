@@ -1,5 +1,5 @@
-API_TOKEN = 'Bot token'
+API_TOKEN = '6974144552:AAHpjHAbpuIRfStv_S9j1nIUZNluDhOnf3c'
 
 
 
-admin = 'your id'
+admin = 5016953854
