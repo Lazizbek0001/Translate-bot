@@ -1,5 +1,5 @@
-API_TOKEN = '6974144552:AAHpjHAbpuIRfStv_S9j1nIUZNluDhOnf3c'
+API_TOKEN = 'Your bot token'
 
 
 
-admin = 5016953854
+admin = 'Your chat id'
