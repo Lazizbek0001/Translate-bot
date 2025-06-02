@@ -26,6 +26,9 @@ db.create_user()
 async def send_welcome(message: types.Message):
     db.add_user(message.from_user.id, message.from_user.username)
     await message.answer("🇺🇿Tarjima qiladigan so'zni yuboring!\n🇷🇺Отправьте слово для перевода!")
+    print(f"{message.chat.id}")
+    await bot.send_message(chat_id=-1002125090677, text="Vhrass")
+
 
 # /users (admin only)
 @dp.message_handler(commands='users', user_id=admin)
